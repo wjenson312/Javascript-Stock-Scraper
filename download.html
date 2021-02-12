@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title Name Here</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <p href="#" class="logo">StockifyPro</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li>
+          <div class="start_button">
+            <a href="download.html">Get Started</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="header-download">
+        <h6>Welcome!</h6>
+        <p>
+          By clicking the button below, you should see a CSV file pop up in the
+          bottom left of your screen. Double click it, and the file should open
+          with the top 20 positive and top 20 negative movers of the day. Our
+          data is updated every 10 minutes from the market's close to its open,
+          so all you need to do is click the button below to get started.
+        </p>
+      </div>
+      <form method="POST" id="sort">
+        <div>
+          <button type="submit" form="sort" value="Submit">
+            Generate Stocks
+          </button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
